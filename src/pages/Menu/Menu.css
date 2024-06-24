@@ -1,0 +1,62 @@
+/* menu.css (create this file in the same directory as Menu.jsx) */
+
+/* Global styles */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  li::before {
+    content: "•";
+    margin-right: 10px;
+    color: #c00; /* Red bullet point */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Styling for different sections */
+  div {
+    margin-bottom: 40px;
+  }
+  
+  /* Specific styles for categories */
+  div:nth-child(even) {
+    background-color: #f8f8f8; /* Light gray background for alternating sections */
+    padding: 15px;
+  }
+  
+  /* Hover effect for list items */
+  li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
